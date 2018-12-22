@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+input[type="text"] {
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-bottom: 1px solid rgb(47, 51, 47);
+    margin: 10px 100px;
+    position: relative;
+    width: 50%;
+}
+
+button[type="submit"] {
+    margin: 10% 50%;
+    position: relative;
+    background-color: rgb(95, 146, 201);
+    padding: 10px;
+    color: white;
+}
+
+div {
+    width: 50%;
+    border: solid rgb(146, 148, 146);
+    box-shadow: 0px 2px 2px 2px grey;
+}
