@@ -6,26 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="navLarge">
+    <div id="wrapper">
+        <header>
 
-        <img src="images/logo.png">
-        <a href="#">dodaj herosa</a>
-        <a href="#">edytuj herosa</a>
-        <a href="#">usun herosa</a>
-        <a href="#">wyczysc baze</a>
-        <a href="#">wczytaj herosow</a>
-    </nav>
-    <main>
+            <img src="/images/logo.png" alt="logo" id="logo">
+            <img src="/images/home-slide01.jpg" alt="background" id="background">
+            <nav>
+                <a href="#" class="menu">dodaj herosa</a>
+                <a href="#" class="menu border">edytuj herosa</a>
+                <a href="#" class="menu border">usuń herosa</a>
+                <a href="#" class="menu border">wyczyść bazę</a>
+                <a href="#" class="menu border">wczytaj herosów</a>
+            </nav>
+        </header>
+        <section>
+            <div class="hero">
+                <img src="images/superman.jpg" alt="superman">
+                <h4>Superman</h4>
+                <h5>cena wynajmu: 9 000 zł/h</h5>
+            </div>
+            <div class="hero">
+                <img src="images/hulk.jpg" alt="hulk">
+                <h4>Hulk</h4>
+                <h5>cena wynajmu: 8 000 zł/h</h5>
+            </div>
+            <div class="hero">
+                <img src="images/thor.jpg" alt="thor">
+                <h4>Thor</h4>
+                <h5>cena wynajmu: 7 000 zł/h</h5>
+            </div>
+            <div class="hero">
+                <img src="images/ironman.jpg" alt="ironman">
+                <h4>Ironman
+                </h4>
+                <h5>cena wynajmu: 9 000 zł/h</h5>
+            </div>
+            <div class="hero">
+                <img src="images/potter.jpg" alt="potter">
+                <h4>Potter</h4>
+                <h5>cena wynajmu: 7 500 zł/h</h5>
+            </div>
+            <div class="hero">
+                <img src="images/batman.jpg" alt="batman">
+                <h4>Batman</h4>
+                <h5>cena wynajmu: 9 000 zł/h</h5>
+            </div>
+        </section>
+        <footer>
+            Need a Hero - Pure JS/CSS Aplikacja do ćwiczenia nabytej wiedzy o JavaScript
+        </footer>
 
-    </main>
-    <footer>
-        <p>Need a Hero - Pure JS/CSS Aplikacja do ćwiczenia nabytej wiedzy o Java Script</p>
-    </footer>
-    <script src="script.js"></script>
+    </div>
+
 </body>
 
 </html>
